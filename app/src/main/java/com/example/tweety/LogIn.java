@@ -2,15 +2,13 @@ package com.example.tweety;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class LogIn extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        startActivity(new Intent(this,LogIn.class));
+        setContentView(R.layout.activity_log_in);
     }
 }
